@@ -9,6 +9,11 @@ public class HelloWorld {
 	
 	public static void main(String[] args) {
 		
+		String name = null;
+		
+		if(name.equals("yogesh")) {
+			System.out.println ("testing SonarQube bugs and vulnerability option");
+		}
 		
 		String str = "Hello World";
 	      	String anotherString = "hello world";
