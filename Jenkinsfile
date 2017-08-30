@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        sh 'mvn clean install'
+        sh '"\'${mvnHome}/bin/mvn\' -Dmaven.test.failure.ignore clean package"'
       }
     }
   }
