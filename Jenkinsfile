@@ -1,6 +1,6 @@
 @Library('utils@master') import org.foo.Utilities
 def utils = new Utilities(this)
 node {
-  println "utils: " + util
+  println "utils: " + utils
   utils.mvn 'clean package'
 }
