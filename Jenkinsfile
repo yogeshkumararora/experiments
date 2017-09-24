@@ -15,3 +15,8 @@ node {
 
 sayHello 'Joe'
 sayHello() /* invoke with default arguments */
+
+mac {
+    sh "man ls"
+}
+
