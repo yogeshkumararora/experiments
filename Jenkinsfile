@@ -1,4 +1,5 @@
 @Library('utils@master') import org.foo.Utilities
+import acme
 def utils = new Utilities(this)
 node {
   stage('Git checkout') {
