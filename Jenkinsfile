@@ -21,6 +21,6 @@ sayHello() /* invoke with default arguments */
 }*/
 
 buildPlugin {
-    name = 'hello'
+    name = 'experiments'
 }
 
