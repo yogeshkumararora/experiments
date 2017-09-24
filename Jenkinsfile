@@ -20,3 +20,7 @@ sayHello() /* invoke with default arguments */
     sh "man ls"
 }*/
 
+buildPlugin {
+    name = 'git'
+}
+
