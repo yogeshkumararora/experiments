@@ -1,5 +1,4 @@
 @Library('utils@master') import org.foo.Utilities
-import acme
 def utils = new Utilities(this)
 node {
   stage('Git checkout') {
@@ -13,5 +12,3 @@ node {
 acme.name = 'Alice'
 echo acme.name /* prints: 'Alice' */
 acme.caution 'The queen is angry!' /* prints: 'Hello, Alice. CAUTION: The queen is angry!' */
-
-println "acme.caution: " + acme.caution
